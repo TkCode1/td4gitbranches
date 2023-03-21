@@ -120,11 +120,12 @@ git push origin --delete 'name of branch'
 ### Using only the shell in your local repository :
 ### 1. Pull the latest changes in the ’master’ branch.
 ```
-
+git pull
 ```
 ### 2. Create a new local branch named after you and switch to it.
 ```
-
+git branch 'name of branch'
+git checkout 'name of branch'
 ```
 ### 3. Then with a separate commit for each change :
 ### (a) Clear the whole file, removing all text.
