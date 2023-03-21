@@ -81,9 +81,13 @@ order in the final README.md file.
 git status
 vim README.md
 ```
+delete lines and errors and write :wq
+```
+git commit -am "solve conflicts"
+```
 ### 7. Push your changes in the ’master’ branch to the remote repository.
 ```
-
+git push
 ```
 ## Exercise 5
 
