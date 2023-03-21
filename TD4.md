@@ -39,7 +39,7 @@ git merge <branch>
 ```
 ### 2. Push your changes in the ’master’ branch to the remote repositor
 ```
-git push -u origin <branche>
+git push origin <branche>
 ```
 
 ## Exercise 4
