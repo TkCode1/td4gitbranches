@@ -72,8 +72,8 @@ git pull
 ```
 ### 5. Merge your branch into the local ’master’ branch.
 ```
-git checkout main
-git merge 'name of branch'
+git checkout 'name of branch'
+git merge main
 ```
 ### 6. If there are conflicts, we want the paragraph to appear in alphabetical
 order in the final README.md file.
