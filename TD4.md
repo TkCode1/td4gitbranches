@@ -115,7 +115,14 @@ git push origin 'name of branch'
 
 ### Using only the shell in your local repository :
 ### 1. Delete your branch on local repository.
+```
+git checkout main
+git branch -d 'name of branch'
+```
 ### 2. Delete your branch on distant repository
+```
+git push origin --delete 'name of branch'
+```
 
 ## Exercise 7
 
