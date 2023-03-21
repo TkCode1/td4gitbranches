@@ -91,15 +91,25 @@ git push
 ```
 ## Exercise 5
 
-### For the repository owner... In the web UI, add a line of text at the
-beginning of the README.md with the team members’ names or aliases.
-Using only the shell in your local repository :
-### 1. Pull the latest changes in the ’master’ branch, check the README.md
-is up-to-date (contains all the paragraphs and the new line).
-### 2. Switch back to your own branch (not including the latest changes from
-the master branch).
+### For the repository owner... In the web UI, add a line of text at the beginning of the README.md with the team members’ names or aliases. Using only the shell in your local repository :
+### 1. Pull the latest changes in the ’master’ branch, check the README.md is up-to-date (contains all the paragraphs and the new line).
+```
+git pull
+cat README.md
+```
+### 2. Switch back to your own branch (not including the latest changes from the master branch).
+```
+git checkout 'name of branch'
+```
 ### 3. Merge the changes from ’master’ to your own branch.
+```
+git merge main
+```
 ### 4. Commit this change
+```
+git commit
+git push origin 'name of branch'
+```
 
 ## Exercise 6
 
