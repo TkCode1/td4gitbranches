@@ -42,6 +42,7 @@ git merge <branch>
 git push origin <branche>
 ```
 
+
 ## Exercise 4
 
 ### For the repository owner... In the web UI, make sure lines 2 to 6 of the
@@ -49,19 +50,41 @@ README.md are not empty.
 One person at a time, using only the shell :
 ### 1. Switch back to your own branch (not including the latest changes from
 the master branch).
+```
+git checkout 'name of branch'
+```
 ### 2. Edit the lines 2 to 6 of the README.md file with a text you like (a
 poem, a quote, some clever code...). It can be any readable text, it may
 be incomplete, it must just take about 5 lines and be different from your
 teammates. It must start on line 2 to trigger conflicts between team
 members.
+```
+vim README.md
+```
 ### 3. Commit this change.
+```
+git commit -am "change readme file"
+```
 ### 4. Pull latest status from the remote repository ’master’ branch into your
 local ’master’ branch.
+```
+git pull
+```
 ### 5. Merge your branch into the local ’master’ branch.
+```
+git checkout main
+git merge 'name of branch'
+```
 ### 6. If there are conflicts, we want the paragraph to appear in alphabetical
 order in the final README.md file.
+```
+git status
+vim README.md
+```
 ### 7. Push your changes in the ’master’ branch to the remote repository.
+```
 
+```
 ## Exercise 5
 
 ### For the repository owner... In the web UI, add a line of text at the
