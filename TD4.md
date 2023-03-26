@@ -125,7 +125,7 @@ git pull
 ```
 ### 2. Create a new local branch named after you and switch to it.
 ```
-git checkout -b your_name_branch
+git checkout -b "nom de la branche"
 ```
 ### 3. Then with a separate commit for each change :
 ### (a) Clear the whole file, removing all text.
@@ -174,9 +174,9 @@ git commit -m "Add section title"
 ```
 ### (h) Add a final line with your name or alias. The commit history of your branch should then be a bit messy with 8 commits.
 ```
-echo "- Your Name or Alias" >> README.md
+echo "- Nom ou alias" >> README.md
 git add README.md
-git commit -m "Add name or alias"
+git commit -m "Nom ou alias"
 ```
 ### 4. Use interactive rebase to have a single commit with message "Explain git interactive rebase.".
 ```
@@ -184,5 +184,5 @@ git rebase -i HEAD~8
 ```
 ### 5. Push your branch on the remote repository.
 ```
-git push origin your_name_branch
+git push origin "nom de la branche"
 ```
